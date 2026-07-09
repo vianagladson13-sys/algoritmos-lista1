@@ -8,7 +8,7 @@ $percentualComissao = 15;
 
 //Processamento
 $comissao = $valorVendas * ($percentualComissao / 100);
-$SalarioFinal = $salarioFixo + $percentualComissao;
+$SalarioFinal = $salarioFixo + $comissao;
 ?>
 
 <!DOCTYPE html>
