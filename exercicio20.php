@@ -29,6 +29,7 @@ $sucessor = $numeroInteiro + 1;
         Resultado esperado: o número 15 terá antecessor 14 e sucessor 16.
 
     </p>
+    <p> <?php echo ("Numero inteiro: " . $numeroInteiro);  ?> </p>
     <p> <?php echo ("Antecessor: " . $antecessor);  ?> </p>
     <p> <?php echo ("Sucessor: " . $sucessor);  ?> </p>
 
