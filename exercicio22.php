@@ -8,7 +8,7 @@ $qtdbroa = 20;
 $valorPaozinho = 1.50;
 $valorBroa = 0.12;
 $totalArrecadado = $valorPaozinho + $valorBroa;
-$poupanca = $totalArrecadado * 0.10
+$poupanca = $totalArrecadado * 0.10;
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +23,7 @@ $poupanca = $totalArrecadado * 0.10
 
 <body>
 
-    <h3> Atividade 19</h3>
+    <h3> Atividade 20</h3>
 
 
     <p>
