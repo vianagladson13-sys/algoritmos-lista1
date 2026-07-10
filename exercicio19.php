@@ -32,8 +32,8 @@ $idade2028 = $anoFuturo - $anoNascimento ;
         anos em 2028.
 
     </p>
-    <p> <?php echo ("Idade atual:" . $anoAtual);  ?> </p>
-    <p> <?php echo ("Idade em 2028:" . $idade2028);  ?> </p>
+    <p> <?php echo ("Idade atual: " . $idadeAtual);  ?> </p>
+    <p> <?php echo ("Idade em 2028: " . $idade2028);  ?> </p>
    
 
 
