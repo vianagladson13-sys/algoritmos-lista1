@@ -5,9 +5,9 @@ $qtdbroa = 20;
 
 
 //Processamento
-$valorPaozinho = 1.50;
-$valorBroa = 0.12;
-$totalArrecadado = $valorPaozinho + $valorBroa;
+$valorPaozinho = 0.12;
+$valorBroa = 1.50;
+$totalArrecadado = $valorPaozinho * $qtdpaozinho + $valorBroa * $qtdbroa;
 $poupanca = $totalArrecadado * 0.10;
 ?>
 
@@ -23,7 +23,7 @@ $poupanca = $totalArrecadado * 0.10;
 
 <body>
 
-    <h3> Atividade 20</h3>
+    <h3> Atividade 22</h3>
 
 
     <p>
@@ -34,6 +34,8 @@ $poupanca = $totalArrecadado * 0.10;
         Resultado esperado: com 100 pães e 20 broas vendidas, o total arrecadado será
         R$ 42,00 e o valor guardado na poupança será R$ 4,20.
     </p>
+    <p>Quantidade de pães: <?php echo $qtdpaozinho ?> </p>
+    <p>Quantidade de broas: <?php echo $qtdbroa ?> </p>
     <p> <?php echo ("Total arrecadado: " . $totalArrecadado);  ?> </p>
     <p> <?php echo ("Guardar na poupança: " . $poupanca);  ?> </p>
 
